@@ -2846,6 +2846,61 @@
   primaryClass  = "cs.HC"
 }
 
+@ARTICLE{D-Amico2026-qm,
+  title         = "Deploying semantic {ID}-based generative retrieval for
+                   large-scale podcast discovery at Spotify",
+  author        = "D'Amico, Edoardo and De Nadai, Marco and Chandar, Praveen and
+                   Vohra, Divita and Lin, Shawn and Lefarov, Max and Gigioli,
+                   Paul and Penha, Gustavo and Kopysitsky, Ilya and Senese, Ivo
+                   Joel and Mei, Darren and Fabbri, Francesco and Semerci, Oguz
+                   and Zhao, Yu and Tang, Vincent and St. Thomas, Brian and
+                   Ranieri, Alexandra and Smith, Matthew N K and Bernkopf, Aaron
+                   and Leung, Bryan and Fazelnia, Ghazal and VanMiddlesworth,
+                   Mark and Heath, Timothy Christopher and Skiden, Petter
+                   Pehrson and Wang, Alice Y and Cole, Doug J and Damianou,
+                   Andreas and Hristakeva, Maya and Wilbur, Reid and Chillara,
+                   Tarun and Radosavljevic, Vladan and Chitkara, Pooja and
+                   Adapa, Sainath and Elenter, Juan and Huber, Bernd and Wood,
+                   Jacqueline and Vedantam, Saaketh and Stypka, Jan and Ghael,
+                   Sandeep and Gould, Martin D and Murgatroyd, David and
+                   Raimond, Yves and Lalmas, Mounia and Bennett, Paul N",
+  journal       = "arXiv [cs.IR]",
+  abstract      = "Podcast listening is often grounded in a set of favorite
+                   shows, while listener intent can evolve over time. This
+                   combination of stable preferences and changing intent
+                   motivates recommendation approaches that support both
+                   familiarity and exploration. Traditional recommender systems
+                   typically emphasize long-term interaction patterns, and are
+                   less explicitly designed to incorporate rich contextual
+                   signals or flexible, intent-aware discovery objectives. In
+                   this setting, models that can jointly reason over semantics,
+                   context, and user state offer a promising direction. Large
+                   Language Models (LLMs) provide strong semantic reasoning and
+                   contextual conditioning for discovery-oriented
+                   recommendation, but deploying them in production introduces
+                   challenges in catalog grounding, user-level personalization,
+                   and latency-critical serving. We address these challenges
+                   with GLIDE, a production-scale generative recommender for
+                   podcast discovery at Spotify. GLIDE formulates recommendation
+                   as an instruction-following task over a discretized catalog
+                   using Semantic IDs, enabling grounded generation over a large
+                   inventory. The model conditions on recent listening history
+                   and lightweight user context, while injecting long-term user
+                   embeddings as soft prompts to capture stable preferences
+                   under strict inference constraints. We evaluate GLIDE using
+                   offline retrieval metrics, human judgments, and LLM-based
+                   evaluation, and validate its impact through large-scale
+                   online A/B testing. Across experiments involving millions of
+                   users, GLIDE increases non-habitual podcast streaming on
+                   Spotify home surface by up to 5.4\% and new-show discovery by
+                   up to 14.3\%, while meeting production cost and latency
+                   constraints.",
+  month         =  mar,
+  year          =  2026,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.IR"
+}
+
 @ARTICLE{Yan2020-fp,
   title     = "Asymmetrical perceptions of partisan political bots",
   author    = "Yan, Harry Yaojun and Yang, Kai-Cheng and Menczer, Filippo and
