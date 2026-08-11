@@ -2931,6 +2931,48 @@
   primaryClass  = "cs.LG"
 }
 
+@ARTICLE{Salimi2026-fn,
+  title         = "{IHBench}: Evaluating post-interruption recovery in voice
+                   agents with structured workflows",
+  author        = "Salimi, Ahmad and Ma, Wentao and Tang, Yuzhi and Shen,
+                   Dongming and Li, Mu and Smola, Alex",
+  journal       = "arXiv [cs.LG]",
+  abstract      = "Voice agents deployed in structured workflows (customer
+                   service, healthcare scheduling, account management) must
+                   handle frequent user interruptions while maintaining progress
+                   through multi-step procedures. Existing benchmarks for
+                   speech-capable models focus on the timing of interruptions:
+                   barge-in detection, endpointing, and turn-taking dynamics.
+                   They leave unmeasured what happens after the interruption:
+                   does the agent resume the workflow at the correct step? Does
+                   it address the user's interjection? Does it avoid
+                   re-delivering content the user already heard? We introduce
+                   IHBench (Interruption Handling Benchmark), a benchmark that
+                   evaluates post-interruption recovery in voice agents
+                   executing state-machine-driven workflows across 10 enterprise
+                   domains. Six interruption types are injected at controlled
+                   points mid-utterance, with per-interruption evaluation
+                   rubrics generated alongside the data. Each interruption is
+                   scored on two axes: task fulfillment and recovery quality. We
+                   evaluate 27 audio-language model configurations from OpenAI,
+                   Google, and the open-weight community. Models vary widely,
+                   and recovery quality depends strongly on the interruption
+                   type. Across our experiments, closed-weight models are
+                   consistently more robust to interruptions than open-weight
+                   ones: they win far more often on task fulfillment, degrade
+                   roughly 3.3x more slowly as conversations grow longer, and
+                   show no audio-versus-text modality gap, whereas the
+                   open-weight models lose ground on all three. A human study
+                   validates the LLM judge against human annotators, and a
+                   cross-benchmark analysis against AudioMultiChallenge
+                   indicates that recovery quality is a largely distinct
+                   capability axis.",
+  month         =  jun,
+  year          =  2026,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.LG"
+}
+
 @ARTICLE{Yan2020-fp,
   title     = "Asymmetrical perceptions of partisan political bots",
   author    = "Yan, Harry Yaojun and Yang, Kai-Cheng and Menczer, Filippo and
