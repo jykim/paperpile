@@ -20727,6 +20727,46 @@
   primaryClass  = "cs.CY"
 }
 
+@ARTICLE{Zhou2026-ii,
+  title         = "{OdysSim}: Building foundation models for human behavior
+                   simulation",
+  author        = "Zhou, Xuhui and Sun, Weiwei and Du, Weihua and Liu, Jiarui
+                   and Sun, Haojia and Ma, Qianou and Wu, Tongshuang and Yang,
+                   Yiming and Sap, Maarten",
+  journal       = "arXiv [cs.CL]",
+  abstract      = "Large language models are increasingly deployed as human
+                   simulators for interactive evaluation and social simulation.
+                   Yet helpfulness-driven post-training pulls them toward a
+                   homogeneous, overly agreeable assistant register, creating a
+                   behavioral Sim2Real gap. We present OdysSim, the largest open
+                   systematic investigation of behavioral foundation models,
+                   i.e., models trained to simulate human behavior at scale. We
+                   propose SOUL, a taxonomy of five capability axes (CONV, SS,
+                   COG, ROLE, EVAL) that unifies 62 datasets and 23 benchmark
+                   tasks under one framework. Specifically, we curate the
+                   OdysSim corpus (21.4M interactions, 10B tokens, retrofitted
+                   with back-generated social contexts), construct the
+                   SOUL-Index benchmark, and develop an end-to-end training
+                   recipe combining midtraining, task-specific RL, and expert
+                   distillation. The resulting open 8B OSim model ranks first or
+                   tied-first on 8 of 23 tasks, outperforming any individual
+                   frontier model by this count, with the strongest gains on
+                   conversational and social tasks. Its outputs are also more
+                   human-like in length, formatting, and word choice, and it
+                   transfers zero-shot to out-of-distribution user simulation on
+                   $\tau$-bench, nearly matching real users on reaction
+                   alignment (93.2 vs. 93.5). We further show that LLM-as-judge
+                   RL induces reward-hacking patterns, and that our detectors
+                   can mitigate them during post-training. Together, our
+                   findings suggest that behavioral foundation models require
+                   rethinking the LLM training paradigm. We release all
+                   artifacts to support future research.",
+  month         =  jun,
+  year          =  2026,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.CL"
+}
+
 @ARTICLE{Salimi2026-fn,
   title         = "{IHBench}: Evaluating post-interruption recovery in voice
                    agents with structured workflows",
